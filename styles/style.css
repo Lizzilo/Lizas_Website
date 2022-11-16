@@ -41,3 +41,11 @@ li a:hover::after {
     width: 100%;
 }
 
+main {
+    display: flex;
+    border: 1px solid #3F4344;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+}
