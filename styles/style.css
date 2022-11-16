@@ -11,6 +11,8 @@ body {
 header {
     height: 100px;
     background: #BCA5A7;
+    display: flex;
+    justify-content: space-around;
     
 }
 
