@@ -49,3 +49,21 @@ main {
     justify-content: center;
 
 }
+
+.logo {
+    max-width: 670px;
+    height: auto;
+}
+
+.content-left {
+    width: 30%;
+}
+
+main h1 {
+    font-size: 40px;
+    color: #3F4344;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
