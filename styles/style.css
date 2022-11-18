@@ -53,6 +53,7 @@ main {
 .logo {
     max-width: 670px;
     height: auto;
+   
 }
 
 .content-left {
@@ -86,3 +87,9 @@ main p {
     border-radius: 50px;
 }
 
+footer {
+    height: 80px;
+    background: #BCA5A7;
+    display: flex;
+    justify-content: space-around;
+}
