@@ -10,9 +10,15 @@ body {
 
 header {
     height: 100px;
+    max-width: 100%;
     background: #BCA5A7;
     display: flex;
     justify-content: space-around;
+}
+
+.logo {
+    max-width: 100%;
+       
 }
 
 ul {
@@ -43,17 +49,12 @@ li a:hover::after {
 }
 
 main {
+    margin-top: 70px;
     display: flex;
     height: calc(100vh - 100px);
     align-items: center;
     justify-content: center;
 
-}
-
-.logo {
-    max-width: 670px;
-    height: auto;
-   
 }
 
 .content-left {
@@ -85,11 +86,20 @@ main p {
     font-weight: 700;
     text-transform: lowercase;
     border-radius: 50px;
+    margin-bottom: 80px;
 }
 
 footer {
-    height: 80px;
+    max-width: 100%;
     background: #BCA5A7;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    color: #6A6B6D;    
+
 }
