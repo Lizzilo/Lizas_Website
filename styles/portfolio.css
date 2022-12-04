@@ -48,6 +48,15 @@ li a:hover::after {
     width: 100%;
 }
 
+main {
+    margin-top: 70px;
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 
 
