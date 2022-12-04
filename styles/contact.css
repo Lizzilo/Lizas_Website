@@ -80,4 +80,17 @@ li a:hover::after {
     font-size: 600;
 }
 
+footer {
+    max-width: 100%;
+    background: #BCA5A7;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    color: #6A6B6D;    
+
+}
