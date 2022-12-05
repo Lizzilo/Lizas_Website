@@ -96,6 +96,7 @@ main p {
     text-transform: lowercase;
     border-radius: 50px;
     margin-bottom: 80px;
+    ;
 }
 
 .cta:hover {
