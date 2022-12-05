@@ -62,9 +62,10 @@ li a:hover::after {
 .title .right-side {
     width: 50%;
     padding: 20px 0px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .title .right-side p {
@@ -89,7 +90,7 @@ li a:hover::after {
     align-items: center;
     text-align: center;
     padding: 0px 126px 0px 0px;
-    height: 530px;
+    height: 500px;
     margin-bottom: 80px;
 }
 
@@ -99,7 +100,8 @@ li a:hover::after {
 
 .container .left-side .item .h3 {
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    
 }
 
 .container .left-side > a{
@@ -128,20 +130,22 @@ li a:hover::after {
 
 .container .right-side .top input {
     width: 45%;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 10px;
-    border: 2px solid #6A6B6D;
+    border: 1px solid #6A6B6D;
     outline-color: #6A6B6D;
     border-radius: 5px;
 
 }
 
 .container .right-side textarea {
-    width: 100%;
-    font-size: 20px;
+    width: 97%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     height: 300px;
     padding: 10px;
-    border: 2px solid #6A6B6D;
+    border: 1px solid #6A6B6D;
     outline-color: #6A6B6D;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -150,13 +154,14 @@ li a:hover::after {
 }
 
 .container .right-side button  {
-    background-color: #997A7F;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 5px;
+    background-color: #BCA5A7;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;    
     cursor: pointer; 
-
+    
 }
 
 footer {
