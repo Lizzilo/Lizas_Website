@@ -85,6 +85,7 @@ li a:hover::after {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
     padding: 0px 126px 0px 0px;
     height: 530px;
 }
@@ -93,7 +94,7 @@ li a:hover::after {
     margin-bottom: 65px;
 }
 
-.container .item .h3 {
+.container .left-side .item .h3 {
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -129,6 +130,16 @@ li a:hover::after {
     border: 2px solid #6A6B6D;
     outline-color: #6A6B6D;
     border-radius: 5px;
+
+}
+
+.container .right-side textarea {
+    width: 100%;
+    font-size: 20px;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid #6A6B6D;
+    outline-color: #6A6B6D;
 
 }
 
