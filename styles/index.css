@@ -58,8 +58,16 @@ main {
     width: 50%;
 }
 
-.content-left span{
+.content-left h1{
     text-align: center;
+}
+
+.content-left span{
+    
+}
+
+.content-left p{
+    text-align:center;
 }
 
 main h1 {
