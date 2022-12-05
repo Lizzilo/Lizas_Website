@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #DEDFE1;
 }
 
 header {
@@ -81,6 +82,11 @@ main p {
     text-transform: lowercase;
     border-radius: 50px;
     margin-bottom: 80px;
+}
+
+.cta:hover {
+    box-shadow: 0 12px 16px 0 #6A6B6D;
+    
 }
 
 footer {
