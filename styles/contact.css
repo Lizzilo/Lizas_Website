@@ -85,6 +85,20 @@ main {
     font-size: 600;
 }
 
+.container {
+    display: flex;
+}
+
+.container .left-side {
+    width: 50%;
+    background: #BCA5A7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px 126px 0px 0px;
+    height: 530px;
+}
+
 footer {
     max-width: 100%;
     background: #BCA5A7;
