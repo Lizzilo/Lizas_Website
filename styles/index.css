@@ -55,7 +55,11 @@ main {
 }
 
 .content-left {
-    width: 30%;
+    width: 50%;
+}
+
+.content-left span{
+    text-align: center;
 }
 
 main h1 {
