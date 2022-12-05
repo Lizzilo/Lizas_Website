@@ -62,10 +62,6 @@ main {
     text-align: center;
 }
 
-.content-left span{
-    
-}
-
 .content-left p{
     text-align:center;
 }
@@ -96,7 +92,7 @@ main p {
     text-transform: lowercase;
     border-radius: 50px;
     margin-bottom: 80px;
-    ;
+    
 }
 
 .cta:hover {
