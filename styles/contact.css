@@ -44,16 +44,6 @@ li a:hover::after {
     width: 100%;
 }
 
-main {
-    margin-top: 70px;
-    display: flex;
-    height: calc(100vh - 100px);
-    align-items: center;
-    justify-content: center;
-
-}
-
-
 .title {
     display: flex;
     margin-top: 70px;
@@ -98,6 +88,17 @@ main {
     padding: 0px 126px 0px 0px;
     height: 530px;
 }
+
+.container .left-side .item {
+    margin-bottom: 65px;
+}
+
+.container .item .h3 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.container .left-side
 
 footer {
     max-width: 100%;
