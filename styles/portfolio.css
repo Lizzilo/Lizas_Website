@@ -54,6 +54,8 @@ main {
 
 .container {
     display: flex;
+    justify-content: center;
+    
 }
 
 .content-left {
@@ -62,21 +64,30 @@ main {
 }
 
 .content-left p{
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
     font-size: 16px;
     font-weight: 400;    
     color: #3F4344;    
     line-height: 30px;
     margin: 30px 0;
+
 }
 
 .content-right {
     width: 50%;
-    text-align: center;
+    justify-items: center;
+    
 }
 
 .content-right p{
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
+    font-size: 16px;
+    font-weight: 400;    
+    color: #3F4344;    
+    line-height: 30px;
+    margin: 30px 0;
 }
 
 
