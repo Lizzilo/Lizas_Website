@@ -8,7 +8,7 @@ header {
     max-width: 100%;
     background: #BCA5A7;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .logo {
