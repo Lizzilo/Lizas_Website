@@ -53,17 +53,20 @@ main {
 }
 
 .container {
+    width: 100;
     display: flex;
     justify-content: center;
     
 }
 
 .content-left {
-    width: 50%;
+    width: 100%;
     text-align: center;
+    
 }
 
 .content-left p{
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
     font-size: 16px;
@@ -75,12 +78,14 @@ main {
 }
 
 .content-right {
-    width: 50%;
+    width: 100%;
     justify-items: center;
+    margin-left: 280px;
     
 }
 
 .content-right p{
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
     font-size: 16px;
