@@ -47,7 +47,9 @@ li a:hover::after {
 main {
     margin-top: 70px;
     display: flex;
-    height: calc(100vh - 100px);   
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -55,8 +57,7 @@ main {
 .container {
     position: relative;
     width: 50%;  
-    justify-content: center; 
-    align-items: center; 
+ 
     
 }
 
@@ -64,8 +65,7 @@ main {
     display: flex;
     width: 100%;
     height: auto;
-    align-self: center;
-    
+       
         
 }
 
@@ -99,6 +99,7 @@ main {
 
 }
 
+/*
 .right-image {
     display: block;
     width: 100%;
@@ -119,7 +120,7 @@ main {
     transition: .5s ease;
 }
 
-.container2:hover .overlay {
+.container2:hover .overlay2 {
     height: 100%;
 }
 
@@ -137,7 +138,7 @@ main {
     -ms-transform: translate(-50%, -50%);
 
 }
-
+*/
 
 footer {
     max-width: 100%;
