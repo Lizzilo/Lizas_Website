@@ -43,26 +43,29 @@ li a:hover::after {
     width: 100%;
 }
 
+
 main {
     margin-top: 70px;
     display: flex;
-    height: calc(100vh - 100px);
-    align-items: center;
-    justify-content: center;
+    height: calc(100vh - 100px);   
 
 }
 
+
 .container {
     position: relative;
-    width: 50%;
-    
+    width: 50%;  
+    justify-content: center; 
+    align-items: center; 
     
 }
 
 .left-image {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
+    align-self: center;
+    
         
 }
 
@@ -96,16 +99,11 @@ main {
 
 }
 
-.container2 {
-    position: relative;
-    width: 50%;
-}
-
-
 .right-image {
     display: block;
     width: 100%;
     height: auto;
+    align-self: center;
     
 }
 
@@ -126,7 +124,7 @@ main {
 }
 
 
-.text2 {
+.text {
     white-space: nowrap; 
     color: white;
     font-size: 10px;
