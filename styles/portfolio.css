@@ -53,51 +53,64 @@ main {
 }
 
 .container {
-    width: 100;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    width: 50%;
+    
     
 }
 
 .left-image {
+    display: block;
     width: 100%;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    height: auto;
+        
 }
 
-.content-left p{
-    width: auto;
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #BCA5A7;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    text-align:center;
-    font-size: 16px;
-    font-weight: 400;    
-    color: #3F4344;    
-    line-height: 30px;
-    margin: 30px 0;
-    
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
 }
 
 .right-image {
     width: 100%;
-    justify-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
     
 }
 
 .content-right p{
-    width: auto;
     font-family: 'Montserrat', sans-serif;
-    text-align:center;
+    text-align: center;
     font-size: 16px;
     font-weight: 400;    
     color: #3F4344;    
     line-height: 30px;
-    margin: 30px 0;
+    
 }
-
-
 
 
 footer {
