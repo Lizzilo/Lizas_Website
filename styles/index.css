@@ -3,25 +3,27 @@ body {
     background-color: #DEDFE1;
 }
 
-header {    
+header {
     max-width: 100%;
+    align-items: center;
     height: 100px;
     background: #BCA5A7;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 .logo {
     display: flex;
-    align-items: center;
-    
+    align-content: flex-start;
+    margin-right: 16%;
            
 }
-
+    
 ul  {
     display: flex;
     list-style-type: none;
-    align-items: center;
+
+    
     
 }
 
