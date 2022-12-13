@@ -47,9 +47,9 @@ li a:hover::after {
 main {
     margin-top: 70px;
     display: flex;
-    height: calc(100vh - 100px);
-    align-items: center;
+    height: calc(100vh - 100px);    
     justify-content: center;
+    align-items: center;
 
 }
 
