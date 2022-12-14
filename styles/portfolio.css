@@ -26,7 +26,7 @@ ul li a {
     padding: 0 20px;
     text-decoration: none;
     color: #6A6B6D;
-    display: inline-block;
+    /*display: inline-block;*/
     
 }
 
@@ -49,20 +49,19 @@ main {
     display: flex;
     height: calc(100vh - 100px);    
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 
 }
 
 
 .container1 {
     position: relative;
-    width: 50%;  
- 
+    width: 100%;  
+     
     
 }
 
-.left-image {
-    display: flex;
+.left-image {    
     width: 100%;
     height: auto;
        
@@ -101,15 +100,15 @@ main {
 
 .container2 {
     position: relative;
-    width: 50%;  
+    width: 100%;  
      
 }
 
 .right-image {
-    display: block;
+    /*display: block;*/
     width: 100%;
     height: auto;
-    align-self: center;
+    /*align-self: center;*/
     
 }
 
