@@ -1,4 +1,4 @@
-
+/* 
 .logo {    
     align-self: center;
            
@@ -34,7 +34,7 @@ li a::after{
 
 li a:hover::after {
     width: 100%;
-}
+} */
 
 main {
     margin-top: 70px;
