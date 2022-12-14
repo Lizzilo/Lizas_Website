@@ -10,8 +10,7 @@ header {
     
 }
 
-.logo {
-    /*display: flex;*/
+.logo {    
     align-self: center;
        
 }
@@ -28,6 +27,7 @@ ul li a {
     text-decoration: none;
     color: #6A6B6D;
     display: inline-block;
+    
 }
 
 li a::after{
