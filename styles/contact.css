@@ -4,22 +4,24 @@ body {
 }
 
 header {
-    height: 100px;
     max-width: 100%;
+    align-items: center;
+    height: 100px;
     background: #BCA5A7;
     display: flex;
     
-        
 }
 
-.logo {     
+.logo {    
     align-self: center;
-       
+           
 }
-
-ul {
+    
+ul  {
     display: flex;
     list-style-type: none;
+
+    
     
 }
 
