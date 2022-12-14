@@ -135,8 +135,7 @@ li a:hover::after {
 }
 
 .container .right-side .top input {
-    width: 45%;
-    max-width: 100%;
+    width: 45%;    
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 10px;
