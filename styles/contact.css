@@ -89,10 +89,8 @@ li a:hover::after {
 
 .container .left-side {
     width: 50%;
-    background: #BCA5A7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: #BCA5A7;    
+    /* flex-direction: column;*/
     text-align: center;
     padding: 0px 126px 0px 0px;
     height: 500px;
