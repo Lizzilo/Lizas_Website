@@ -114,9 +114,13 @@ main {
     
 }
 
+a {
+    color:#DEDFE1;
+}
 .container .left-side > a{
     border-bottom: 1px dotted #6A6B6D;
     font-size: 18px;
+    
 
 }
 
