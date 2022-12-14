@@ -89,6 +89,7 @@ li a:hover::after {
 
 .container .left-side {
     width: 50%;
+    max-width: 100%;
     background: #BCA5A7;    
     /* flex-direction: column;*/
     text-align: center;
@@ -127,13 +128,15 @@ li a:hover::after {
 
 .container .right-side .top {
     width: 500px;
-    display: flex;
+    max-width: 100%;
+    /* display: flex; */
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .container .right-side .top input {
     width: 45%;
+    max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 10px;
@@ -144,7 +147,7 @@ li a:hover::after {
 }
 
 .container .right-side textarea {
-    width: 97%;
+    width: 97%;    
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     height: 300px;
@@ -158,6 +161,7 @@ li a:hover::after {
 }
 
 .container .right-side button  {
+    max-width: 100%;
     background-color: #BCA5A7;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
