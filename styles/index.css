@@ -20,6 +20,7 @@ header {
 ul  {
     display: flex;
     list-style-type: none;
+    
 
     
     
@@ -96,6 +97,11 @@ main p {
     border-radius: 50px;
     margin-bottom: 80px;
     
+}
+
+.cta a {
+    color: #3F4344;
+
 }
 
 .cta:hover {
