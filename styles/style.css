@@ -13,6 +13,46 @@ header {
 }
 
 
+.logo {    
+    align-self: center;
+           
+}
+
+nav {
+    margin-left: 20%;
+
+}
+    
+ul  {
+    display: flex;
+    list-style-type: none;
+
+    
+    
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #6A6B6D;
+    display: inline-block;
+    
+}
+
+li a::after{
+    content:' ';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #DEDFE1;
+    transition: all .5s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+
 h1 {
     font-size: 40px;
     color: #3F4344;
