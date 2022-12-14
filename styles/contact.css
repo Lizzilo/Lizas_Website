@@ -8,20 +8,18 @@ header {
     max-width: 100%;
     background: #BCA5A7;
     display: flex;
-    justify-content: center;
+    
         
 }
 
-.logo {
-    display: flex;    
-    align-items: center;
+.logo {     
+    align-self: center;
        
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    align-items: center;
     
 }
 
