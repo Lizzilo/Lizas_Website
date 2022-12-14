@@ -16,6 +16,11 @@ header {
     align-self: center;
            
 }
+
+nav {
+    margin-left: 20%;
+
+}
     
 ul  {
     display: flex;
