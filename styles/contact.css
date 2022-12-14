@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
     background-color: #DEDFE1;
 }
@@ -49,7 +49,7 @@ li a::after{
 
 li a:hover::after {
     width: 100%;
-}
+} */
 
 main {
     max-width: 100%;
