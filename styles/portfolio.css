@@ -85,7 +85,7 @@ main {
 .text1 {
     white-space: nowrap; 
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     overflow: hidden;
@@ -130,7 +130,7 @@ main {
 .text2 {
     white-space: nowrap; 
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     overflow: hidden;
