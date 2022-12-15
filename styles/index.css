@@ -99,6 +99,12 @@ main p {
     
 }
 
+@media screen and (min-width: 780px) {
+    .full-width-img {
+    margin: auto;
+    width: 90%;
+    }
+
 /* footer {
     max-width: 100%;
     background: #BCA5A7;
@@ -113,3 +119,5 @@ main p {
     color: #6A6B6D;    
 
 } */
+
+}
