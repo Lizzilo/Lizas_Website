@@ -26,6 +26,9 @@ Websidan har kodats med hjälp av HTML & CSS med hjälp av flexbox.
 
 [LandingpageIkon]![Tjej med dator](images/casual-life-3d-young-woman-working-on-laptop-and-showing-v-sign.png) (https://icons8.com/illustrations/t/marketing)
 
+##### Utmaning
+
+Utmaning har varit att jag inte får alla sidor responsiva och det var en stor utmaning att få till flexboxen rätt.
 
 
 
