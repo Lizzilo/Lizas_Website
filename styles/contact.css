@@ -52,11 +52,14 @@ li a:hover::after {
 } */
 
 main {
-    max-width: 100%;
+    max-width: 100%;  
+       
+    
 }
 
 .title {
     display: flex;
+    gap: 2.px;
     margin-top: 70px;
 }
 
