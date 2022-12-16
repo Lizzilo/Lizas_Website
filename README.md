@@ -31,7 +31,7 @@ Websidan har kodats med hjälp av HTML & CSS med hjälp av flexbox.
 Utmaning har varit att jag inte får alla sidor responsiva och det var en stor utmaning att få till flexboxen rätt.
 
 ###### Github
-
+[Github länk](https://github.com/Lizzilo/Lizas_Website.git)
 
 
 
